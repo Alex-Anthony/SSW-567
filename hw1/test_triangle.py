@@ -6,10 +6,8 @@ class TestTriangle(unittest.TestCase):
     
     def test_equilateral(self):
         self.assertEqual(classify_triangle(3, 3, 3), "Equilateral triangle")
-    
     def test_isosceles(self):
         self.assertEqual(classify_triangle(5, 5, 8), "Isosceles triangle")
-    
     def test_scalene(self):
         self.assertEqual(classify_triangle(3, 4, 5), "Scalene triangle and Right triangle")
     
